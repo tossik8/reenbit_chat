@@ -1,0 +1,33 @@
+.profile-header{
+  border-bottom: solid 1px var(--border-color);
+  background-color: var(--primary-container);
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.user-profile{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-search-container{
+  position: relative;
+
+}
+.chat-search-button{
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  left: 0.3rem;
+  top: 50%;
+  transform: translate(0, -50%);
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+.chat-search{
+  padding: 0.5rem 0.5rem 0.5rem 2rem;
+  width: 100%;
+  border-radius: 1rem;
+  border: 1px solid var(--border-color);
+}

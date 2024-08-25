@@ -1,0 +1,27 @@
+#root{
+  min-width: 320px;
+  max-width: 1780px;
+  height: inherit;
+  max-height: inherit;
+  margin: 0 auto;
+}
+
+main{
+  display: flex;
+  max-height: inherit;
+  height: inherit;
+}
+
+#left-sidebar{
+  display: flex;
+  flex-direction: column;
+  flex: 4;
+}
+
+.profile-header, .chat-creation-form, .chat-list-item{
+  padding: 0.8rem;
+}
+
+#chat-window{
+  flex: 6;
+}

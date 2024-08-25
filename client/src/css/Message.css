@@ -1,0 +1,43 @@
+.message-container{
+  display: flex;
+  gap: 0.2rem;
+}
+
+.message-container.sent{
+  justify-content: end;
+}
+
+.profile-icon.sent{
+  display: none;
+}
+
+.message-details{
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.message-details.sent{
+  align-items: end;
+}
+
+.message{
+  padding: 0.6rem;
+  border-radius: 1rem;
+  background-color: var(--received-message-color);
+  color: white;
+}
+
+.message.sent{
+  background-color: var(--sent-message-color);
+  color: black;
+}
+
+.date{
+  font-size: 0.7rem;
+}
+
+.message, .date{
+  margin: 0;
+  max-width: fit-content;
+}

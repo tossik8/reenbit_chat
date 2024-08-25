@@ -1,0 +1,25 @@
+.chat-creation-form{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.details-container{
+  display: flex;
+  gap: 0.5rem;
+}
+
+.buttons-container{
+  display: flex;
+  justify-content: end;
+  gap: 0.3rem;
+}
+
+.create-chat-button{
+  font-size: x-large;
+  padding: 1rem 0;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid var(--border-color);
+}
